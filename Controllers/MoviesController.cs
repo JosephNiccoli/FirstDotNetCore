@@ -41,11 +41,11 @@ namespace HelloWorld.Controllers
             }
 
             return View(movie);
-        
 
-        // GET: Movies/Create
-        public IActionResult Create() 
-        {
+        }
+            // GET: Movies/Create
+            public IActionResult Create()
+            {
             return View();
         }
 
